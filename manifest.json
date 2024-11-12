@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "BilibiliRecorder",
+  "version": "0.1.0",
+  "description": "Record BiliBili video recommendation",
+  "permissions": ["runtime"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.bilibili.com/"],
+      "js": ["content_script.js"],
+      "css": ["content_style.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "512": "icon512.png"
+  }
+}
