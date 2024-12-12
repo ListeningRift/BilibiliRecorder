@@ -3,7 +3,6 @@
   "name": "BilibiliRecorder",
   "version": "0.1.0",
   "description": "Record BiliBili video recommendation",
-  "permissions": ["runtime"],
   "content_scripts": [
     {
       "matches": ["https://www.bilibili.com/"],
